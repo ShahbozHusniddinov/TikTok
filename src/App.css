@@ -1,0 +1,301 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins,sans-serif;
+}
+
+.max-width{
+  margin: auto;
+  max-width: 1440px;
+  display: block;
+}
+
+.navbar-img img{
+  margin-top: 5px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.ul-1{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin-right: 400px;
+  font-size: 20px;
+}
+
+.ul-2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.btn{
+  padding: 13px 21px;
+  background: #4450f2;
+  border: none;
+  border-radius: 10px;
+}
+
+.son{
+  display: flex;
+  gap: 10px;
+  margin-left: 60px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.son img{
+  height: 25px;
+  width: 25px;
+}
+
+.body-h1 h1{
+  margin-left: 60px;
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+.body-p p{
+  margin-left: 75px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.katta{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.second img{
+  width: 380px;
+  height: 380px;
+  margin-top: 130px;
+  margin-left: 130px;
+}
+
+.buttons{
+  margin-left: 75px;
+  margin-top: 50px;
+}
+
+.buttons-one a{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+.buttons-one{
+  background: #4450f2;
+  padding: 17px 19px;
+  border:  none;
+  border-radius: 18px;
+  transition: all 0.5s ease-in-out;
+}
+
+.buttons-one:hover{
+  background: rgb(57, 57, 164);
+  transform: translateY(-10px);
+}
+
+.buttons-second a{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.buttons-second:hover{
+  transform: translateY(-10px);
+}
+
+.buttons-second{
+  background: white;
+  padding: 17px 45px 17px 45px;
+  border:  none;
+  border-radius: 18px;
+  box-shadow: 0px 1px 4px 4px rgba(124, 122, 122, 0.5);
+  margin-left: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.aut-first h1{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+}
+
+.aut-second p{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.odam-first{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 60px;
+}
+
+.odam-img img{
+  width: 300px;
+  height: 300px;
+  margin-top: 60px;
+  margin-left: 150px;
+  transition: all 0.4s ease-in-out;
+}
+
+.odam-img img:hover{
+  transform: translateZ(-100px);
+  box-shadow: 0px 0px 0px 2px rgba(254, 254, 5, 0.795);
+  border-radius: 31px;
+}
+
+.odam-text h2{
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.odam-text p{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.odam-text1 h2{
+  font-size: 35px;
+  margin-top: 80px;
+}
+
+.odam-text1 p{
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.ota{
+  width: 500px;
+  height: 350px;
+  padding: 40px;
+  background: #f6f6f6;
+  border-radius: 35px;
+  margin-top: 60px;
+  transition: all 0.4s ease-in-out;
+}
+
+.ota:hover{
+  box-shadow: 0px 0px 0px 2px rgba(143, 140, 140, 0.5);
+  transform: translateZ(-10px);
+}
+
+.plus-h1 h1{
+  margin-top: 20px;
+  margin-bottom: 9px;
+  font-size: 30px;
+  line-height: 1.2em;
+}
+
+.plus-h1 p{
+  max-width: 260px;
+  opacity: .6;
+  font-size: 18px;
+  line-height: 1.5em;
+  font-weight: 500;
+  letter-spacing: -.26px;
+}
+
+.plus-p p{
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.ota-1{
+  width: 500px;
+  height: 350px;
+  padding: 40px;
+  background: #f6f6f6;
+  border-radius: 35px;
+  margin-top: 60px;
+  transition: all 0.4s ease-in-out;
+}
+
+.ota-1:hover{
+  box-shadow: 0px 0px 0px 2px rgba(143, 140, 140, 0.5);
+  transform: translateZ(-10px);
+}
+
+.mom{ 
+  gap: 50px;
+  display: flex;
+  margin-left: 200px;
+}
+
+.mom-1 h1{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 50px;
+}
+
+.kici img{
+  width: 350px;
+  transition: all 0.4s ease-in-out;
+  border-radius: 30px;
+}
+.kici img:hover{
+  transform: translateZ(-100px);
+  box-shadow: 0px 0px 0px 2px rgba(228, 228, 12, 0.4);
+}
+.cardss{
+  margin-top: 105px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around; 
+}
+
+.kici p{
+  margin-top: 32px;
+}
+
+.last h1{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 45px;
+}
+
+.full{
+  margin-top: 200px;
+  background: black;
+  width: 1515px;
+  height: 500px;
+}
+
+.last-one h1{
+  padding-top: 100px;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+}
+
+.last-one p{
+  color:white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.buttonss{
+  margin-top: 50px;
+  margin-left: 500px;
+}
